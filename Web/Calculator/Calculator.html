@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+    <link rel="stylesheet" href="Styles/bootstrap.min.css">
+    <script src="Script/jquery-3.4.1.js"></script>
+    <script src="Script/bootstrap.bundle.min.js"></script>
+    <script src="Script/Calculator.js"></script>
+</head>
+<body>
+<div id="main" class="left show-border col-4  offset-4 bg-dark">
+
+    <div id="display" class="left show-border  col-12 bg-info">
+        <input type="text" readonly VALUE="0" class="display-screen col-12"/>
+    </div>
+
+    <div id="main-body" class="left show-border row bg-dark ">
+
+        <div id="pad-number" class="left show-border col-10 btn btn-lg " >
+            <div class="pad-number-rows ">
+                <input type="button" id="pad-1" value="1" class="pad w-25 h-25"/>
+                <input type="button" id="pad-2" value="2" class="pad w-25 h-25"/>
+                <input type="button" id="pad-3" value="3" class="pad w-25 h-25"/>
+            </div>
+            <div class="pad-number-rows">
+                <input type="button" id="pad-4" value="4" class="pad w-25 h-25"/>
+                <input type="button" id="pad-5" value="5" class="pad w-25 h-25 "/>
+                <input type="button" id="pad-6" value="6" class="pad w-25 h-25"/>
+            </div>
+            <div class="pad-number-rows">
+                <input type="button" id="pad-7" value="7" class="pad w-25 h-25"/>
+                <input type="button" id="pad-8" value="8" class="pad w-25 h-25 "/>
+                <input type="button" id="pad-9" value="9" class="pad w-25 h-25"/>
+            </div>
+            <div class="pad-number-rows">
+                <input type="button" id="pad-0" value="0" class="pad w-25 h-25"/>
+                <input type="button" id="pad-decimal" value="." class="pad w-25 h-25"/>
+                <input type="button" id="pad-equal" value="=" class="pad w-25 h-25"/>
+
+
+            </div>
+        </div>
+        <div id="pad-operation" class="left show-border col-2 btn btn-lg">
+            <div class="pad-operation-rows">
+                <input type="button" id="pad-add" value="+" class="pad w-100 h-100"/>
+            </div>
+            <div class="pad-operation-rows">
+                <input type="button" id="pad-minus" value="-" class="pad w-100 h-100"/>
+            </div>
+            <div class="pad-operation-rows">
+                <input type="button" id="pad-multiply" value="x" class="pad w-100 h-100"/>
+            </div>
+            <div class="pad-operation-rows">
+                <input type="button" id="pad-divide" value="/" class="pad w-100 h-100"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

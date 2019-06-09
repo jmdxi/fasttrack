@@ -1,36 +1,45 @@
 function addition(firstNumber, secondNumber) {
-    if (typeof (firstNumber) == "number" && (typeof (secondNumber) == "number")) {
+    if (typeof (firstNumber) == "number" && typeof (secondNumber) == "number") {
 
         var total = firstNumber + secondNumber;
         console.log("total")
         return total
-    } else (console.log("not a number"))
-
+    } else 
+       {
+        console.log("not a number")
+       } 
 
 }
 
 function subtract(firstNumber, secondNumber) {
-    if (typeof (firstNumber) == "number" && (typeof (secondNumber) == "number")) {
+    if (typeof (firstNumber) == "number" && typeof (secondNumber) == "number") {
 
         var total = firstNumber - secondNumber;
         console.log("total")
         return total
-    } else (console.log("not a number"))
+    } 
+    else 
+    {
+        console.log("not a number")
+    }
 }
 
 function multiply(firstNumber, secondNumber) {
-    if (typeof (firstNumber) == "number" && (typeof (secondNumber) == "number")) {
+    if (typeof (firstNumber) == "number" && typeof (secondNumber) == "number") {
 
         var total = firstNumber * secondNumber;
         console.log("total")
         return total
-    } else (console.log("not a number"))
+    } else 
+        {
+        console.log("not a number")
+        }
 }
 
 function divide(firstNumber, secondNumber) {
     if (typeof (firstNumber) == "number" && (typeof (secondNumber) == "number")) {
 
-        if(firstNumber>0){
+        if(secondNumber=0){
 
             console.log("cannot divide by zero")
         }
@@ -40,5 +49,8 @@ function divide(firstNumber, secondNumber) {
             console.log("total")
             return total
         }
-    } else (console.log("not a number"))
+    } else 
+        {
+        console.log("not a number")
+        }    
 }

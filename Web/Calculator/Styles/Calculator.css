@@ -1,0 +1,84 @@
+/*.show-border {
+    border: 1px solid #000000
+}
+
+.box-space {
+    margin: 2%;
+}
+
+.left {
+    float: left;
+
+}
+
+.right {
+    float: right;
+}
+
+#main {
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    background: #cccccc;
+}
+
+#display {
+    display: block;
+
+    margin: 15px;
+    width: 94%;
+    background-color: #999999;
+
+}
+
+
+.display-screen {
+    display: block;
+    height: 50px;
+    width: 94%;
+    margin: 15px;
+    font-family: Arial;
+    font-size: 140%;
+    text-align: right;
+}
+
+#main-body {
+    display: block;
+    margin: 15px;
+    width: 94%;
+}
+
+#pad-number {
+    display: block;
+    height: auto;
+    margin: 15px;
+    width: 60%;
+}
+
+#pad-operation {
+    display: block;
+    height: auto;
+    margin: 15px;
+    width: 28%;
+}
+
+.pad-number-rows, .pad-operation-rows {
+    display: block;
+    padding: 5px;
+
+}
+
+.pad {
+    width: 30%;
+    height: 50px;
+    font-family: Arial;
+    font-size: 140%;
+    margin-left: 5px;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+}
+*/
+
+
